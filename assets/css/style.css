@@ -1,0 +1,656 @@
+
+.navbar{
+    background-color: rgb(50, 55, 124);
+    height: 200px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;   
+}
+.choose {
+    overflow: hidden;
+    background-color: rgb(212, 160, 4);
+    border-radius:20px ;
+}
+.choose a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 20px;
+    
+}
+.choose a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(50, 55, 124);
+}
+.choose a { 
+    background-color: rgb(212, 160, 4);
+    color:#ddd;
+    border: solid 2px rgb(194, 194, 222);
+}
+.choose{
+    position: relative;
+    bottom: 180px;
+    margin-left: 500px;
+}
+#logo-photo{
+    width: 200px;
+    margin-left: 70px;
+    border-radius:50%;
+}
+.sosial-networks{
+    margin-left: 1800px;
+    position: relative;
+    bottom: 268px;
+}
+.sosial-networks a{
+    padding:  13px;
+    font-size: 40px;
+}
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+  
+.sidebar {
+  position: relative;
+  top: 150px;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  background-color: #f1f1f1;
+  height: 100%;
+  overflow: auto;
+  height: 1000px;
+}
+  
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top:50px;
+}
+   
+.sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+  
+.sidebar a:hover:not(.active) {
+    background-color: rgb(50, 55, 124);
+    color: white;
+}
+  
+div.content {
+    margin-right: 100px;
+    padding: 1px 16px;
+    height: 1000px;
+    position: relative;
+    bottom: 700px;
+    margin-left: 300px;
+}
+  
+
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.photo-slides{
+  position: relative;
+  bottom: 2px;
+}
+
+.head{
+    position: relative;
+    bottom: 850px;
+    font-size: 50px;
+    height: 250px;
+    background-color: rgb(50, 55, 124);
+    width: 100%;
+    padding: 15px;
+    padding-top: 30px;
+    color: rgb(212, 160, 4);
+    margin-left: 0px;
+    border-radius: 0px;
+}
+#gun{
+    margin-left: 1000px;
+}
+
+.guns-part{
+    position: relative;
+    bottom: 850px;
+    background-image: url(https://thumbs.dreamstime.com/b/acp-bullets-grouping-automatic-colt-pistol-metal-background-83465163.jpg);
+    height: 1600px;
+
+}
+
+.part-one{
+    display: flex;
+    margin-left: 200px;
+    position: relative;
+    top: 100px;
+}
+
+.ak-47{
+    border: solid 2px rgb(128, 133, 133);
+    padding: 10px;
+    background-color: rgb(50, 55, 124);
+    border-radius: 20px;
+}
+.ak-47-info{
+    margin-top: 50px;
+    font: 30px;
+    
+}
+#ak-47-photo{
+  border-radius: 10px;
+  width: 897px;
+  height: 322px;
+}
+
+.ak-47:hover{
+  background-color: rgb(212, 160, 4);
+}
+.ak-74{
+    margin-left: 70px;
+    border: solid 2px rgb(128, 133, 133) ;
+    padding: 20px;
+    background-color: rgb(50, 55, 124);
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+.ak-74-info {
+    position: relative;
+    top: 25px;
+    font: 30px;
+}
+#ak-74-photo{
+  border-radius: 10px;
+  width: 820px;
+  height: 322px;
+}
+.ak-74:hover{
+  background-color: rgb(212, 160, 4);
+}
+
+.part-two{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.g3{
+    border: solid 2px rgb(128, 133, 133);
+    padding: 20px;
+    background-color: rgb(50, 55, 124);
+    border-radius: 20px;
+    width: 925px;
+}
+ 
+.g3-info{
+    margin-top: 30px;
+    font: 30px;
+    margin-left: 35px;
+}
+
+#g3-photo{
+  border-radius: 10px;
+  width: 870px;
+  height: 350px;
+  margin-left: 5px;
+}
+
+.g3:hover{
+  background-color: rgb(212, 160, 4);
+}
+
+.scar-l{
+    margin-left: 65px;
+    border: solid 2px rgb(128, 133, 133) ;
+    padding: 20px;
+    background-color: rgb(50, 55, 124);
+    padding-bottom: 20px;
+    border-radius: 20px;
+    width: 870px;
+}
+.scar-l:hover{
+  background-color: rgb(212, 160, 4);
+}
+#scar-photo{
+  border-radius: 10px;
+    width: 830px;
+    height: 350px;
+    margin-left: 0px;
+}
+
+.scar-l-info{
+  margin-left: 20px;
+  position: relative;
+  top: 10px;
+}
+
+
+.slideshow-container{
+  margin-right: 765px;
+  position: relative;
+  bottom: 100px;
+}
+
+.head-two{
+  font-size: 60px;
+  margin-top: 200px;
+  background-color: rgb(50, 55, 124);;
+  height: 200px;
+  
+}
+#header-two{
+  margin-left: 900px;
+  padding: 60px;
+  color: rgb(252, 58, 58);
+}
+
+
+
+
+
+
+.part-three{
+  display: flex;
+  margin-left: 200px;
+  position: relative;
+  top: 100px;
+}
+
+
+
+.baretta-92{
+  border: solid 2px rgb(128, 133, 133);
+  padding: 10px;
+  background-color: rgb(50, 55, 124);
+  border-radius: 20px;
+  width: 920px;
+}
+.baretta-92-info{
+  margin-top: 50px;
+  font: 30px;
+  
+}
+
+#baretta-92-photo{
+  width: 880px;
+  height: 322px;
+  border-radius: 10px;
+  margin-left: 6px;
+}
+
+.baretta-92:hover{
+background-color: rgb(212, 160, 4);
+}
+
+
+.glock-17  {
+  margin-left: 70px;
+  border: solid 2px rgb(128, 133, 133) ;
+  padding: 20px;
+  background-color: rgb(50, 55, 124);
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+.glock-17-info {
+  position: relative;
+  top: 25px;
+  font: 30px;
+}
+#glock-17-photo{
+  position: relative;
+  bottom: 10px;
+  border-radius: 10px;
+  width: 830px;
+  height: 325px;
+}
+.glock-17:hover{
+background-color: rgb(212, 160, 4);
+}
+
+
+.part-four{
+  display: flex;
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+
+.sig-saue{
+  border: solid 2px rgb(128, 133, 133);
+  padding: 20px;
+  background-color: rgb(50, 55, 124);
+  border-radius: 20px;
+  width: 925px;
+}
+
+.sig-saue-info{
+  margin-top: 30px;
+  font: 30px;
+  margin-left: 35px;
+}
+
+#sig-saue-photo{
+  width: 880px;
+  height: 350px;
+  margin-left: 0px;
+  border-radius: 10px;
+}
+
+.sig-saue:hover{
+background-color: rgb(212, 160, 4);
+}
+
+
+.desert-eagle{
+  margin-left: 65px;
+  border: solid 2px rgb(128, 133, 133) ;
+  padding: 20px;
+  background-color: rgb(50, 55, 124);
+  padding-bottom: 20px;
+  border-radius: 20px;
+  width: 870px;
+}
+.desert-eagle:hover{
+background-color: rgb(212, 160, 4);
+}
+#desert-eagle-photo{
+  width: 830px;
+  height: 350px;
+  margin-left: 0px;
+  border-radius: 10px;
+}
+
+.desert-eagle-info{
+margin-left: 20px;
+position: relative;
+top: 10px;
+}
+
+.bckgrd{
+  background-image: url(https://t4.ftcdn.net/jpg/04/72/07/09/360_F_472070989_b0jxzfspyQv1bFlWq8mJzPa2YWgWLWPn.jpg);
+  height: 1550px;
+}
+
+
+.head-three{
+  font-size: 60px;
+  position: relative;
+  bottom: 60px;
+  background-color:rgb(50, 55, 124);;
+  height: 200px;
+  
+}
+#header-three{
+  margin-left: 1000px;
+  padding: 60px;
+  color: rgb(252, 58, 58);
+}
+
+
+
+.part-five{
+  display: flex;
+  margin-left: 200px;
+  position: relative;
+  top: 100px;
+}
+
+.istiqlal{
+  border: solid 2px rgb(128, 133, 133);
+  padding: 10px;
+  background-color: rgb(50, 55, 124);
+  border-radius: 20px;
+  width: 920px;
+}
+.istiqlal-info{
+  margin-top: 50px;
+  font: 30px;
+  
+}
+
+#istiqlal-photo{
+  width: 880px;
+  height: 322px;
+  border-radius: 10px;
+  margin-left: 6px;
+}
+
+.istiqlal:hover{
+background-color: rgb(212, 160, 4);
+}
+
+
+.yalguzaq  {
+  margin-left: 70px;
+  border: solid 2px rgb(128, 133, 133) ;
+  padding: 20px;
+  background-color: rgb(50, 55, 124);
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+.yalguzaq-info {
+  position: relative;
+  top: 25px;
+  font: 30px;
+}
+#yalguzaq-photo{
+  position: relative;
+  bottom: 10px;
+  border-radius: 10px;
+  width: 830px;
+  height: 325px;
+}
+.yalguzaq:hover{
+background-color: rgb(212, 160, 4);
+}
+
+
+.part-six{
+  display: flex;
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+.awm{
+  border: solid 2px rgb(128, 133, 133);
+  padding: 20px;
+  background-color: rgb(50, 55, 124);
+  border-radius: 20px;
+  width: 925px;
+}
+
+.awm-info{
+  margin-top: 30px;
+  font: 30px;
+  margin-left: 35px;
+}
+
+#awm-photo{
+  width: 880px;
+  height: 350px;
+  margin-left: 0px;
+  border-radius: 10px;
+}
+
+.awm:hover{
+background-color: rgb(212, 160, 4);
+}
+
+
+.m-24{
+  margin-left: 65px;
+  border: solid 2px rgb(128, 133, 133) ;
+  padding: 20px;
+  background-color: rgb(50, 55, 124);
+  padding-bottom: 20px;
+  border-radius: 20px;
+  width: 870px;
+}
+.m-24:hover{
+background-color: rgb(212, 160, 4);
+}
+#m-24-photo{
+  width: 830px;
+  height: 350px;
+  margin-left: 0px;
+  border-radius: 10px;
+}
+
+.m-24-info{
+margin-left: 20px;
+position: relative;
+top: 10px;
+}
+
+.bckgrd-two{
+  background-image: url(https://www.teahub.io/photos/full/175-1755506_weapons-guns-wallpapers-download-photo-wallpapers-lots-of.jpg);
+  position: relative;
+  bottom: 60px;
+  height: 1540px;
+}
+
+.footer{
+  height: 450px;
+  position: relative;
+  bottom: 80px;
+  background-color: rgb(101, 104, 104);
+}
+
+#log{
+  width: 200px;
+  border-radius: 50%;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.site-name{
+  margin-left: 160px;
+  font-size: 40px;
+  position: relative;
+  bottom: 25px;
+  color: rgb(23, 23, 27);
+}
+
+.info-site{
+  margin-left: 800px;
+  position: relative;
+  bottom: 310px;
+  font-size: 25px;
+}
+
+.info-site-two{
+  margin-left: 1500px;
+  font-size: 25px;
+  position: relative;
+  bottom: 530px;
+}
+
+#c{
+  margin-left: 145px;
+}
+
+.end{
+  position: relative;
+  bottom: 490px;
+  font-size: 40px;
+  margin-left: 700px;
+}
+.information{
+  position: relative;
+  bottom: 80px;
+  margin-left: 190px;
+}
+#in{
+  font-size: 27px;
+}
+
+
+
+
+
+
+
